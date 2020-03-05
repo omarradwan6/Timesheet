@@ -1,0 +1,26 @@
+﻿.table td, tr,th {
+    text-align: center;
+    /*padding-bottom:1px;
+    padding-left:1px;
+    padding-right:1px;
+    padding-top:1px;*/
+    /*margin:auto*/
+    /*height: 3px;
+    width:10px*/
+}
+
+
+tr,td{
+    padding:0;
+    /*height:3px;*/
+
+}
+
+
+
+
+#ss{
+
+    background-color:red;
+
+}

@@ -1,0 +1,153 @@
+
+.bButton {
+    width: 50px;
+    background-color: rgb(5,70,109);
+    color: white;
+}
+
+.TSForm{
+
+    border-bottom: 2px solid lightgray;
+
+}
+
+.TSForm1{
+    
+    width: 90%;
+
+}
+
+.TSForm2 {
+    border-top: 2px solid lightgray;
+}
+
+.tButtons {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.tTable{
+    width: 99%;
+    text-align: center;
+    
+}
+
+.sheetBorder{
+
+    width: 99.5%;
+    border-style: outset;
+    border-color: lightgray;
+    border-radius: 1%;
+    background-color: white;
+}
+
+input{
+
+    text-align: center;
+
+}
+
+.info{
+    height: 65px;
+    font-size: 0.3in;
+    justify-content: center;
+}
+
+.bBadge{
+    height: 35px;
+    justify-content: center;
+}
+
+.fadingSpinnerOut {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+.fadingSpinnerIn {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+}
+
+.fadingPage {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.spinSize{
+    width: 3rem;
+    height: 3rem;
+}
+
+.spinFont{
+    color: white;
+}
+
+.pBackground {
+    background-color: rgb(5,70,109);
+    color: white;
+}
+
+.pBackground .btn:hover {
+    border-color:lightgray;
+    color: white;
+}
+
+.greyBackground {
+    background-color: rgb(203,204,204);
+    color: black;
+}
+
+.redBackground {
+    background-color: rgb(192,33,38);
+    color: white;
+}
+
+.BGLogo {
+    background-image: url("./Icons/backgroungLogo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.nav-border {
+    border-bottom: 4px solid white;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-text{
+    color: rgb(203,204,204);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.main-background {
+    position: fixed;
+    width: auto,100%;
+    height: auto,100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../Main Page/Logos/Logo.png"), url("../Main Page/Logos/MainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: auto,100% 100%;
+    background-attachment: fixed;
+    background-position:5% 6%, center;
+}

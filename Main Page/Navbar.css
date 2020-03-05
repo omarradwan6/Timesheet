@@ -1,0 +1,5 @@
+li.nav-item:hover {
+  background-color: rgb(187, 203, 216);
+  /*border-radius: 10%;*/
+  font-weight: 500;
+}

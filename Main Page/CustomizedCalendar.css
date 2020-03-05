@@ -1,0 +1,45 @@
+abbr[aria-label*="January 7, 2020"],
+abbr[aria-label*="January 25, 2020"],
+abbr[aria-label*="April 19, 2020"],
+abbr[aria-label*="April 20, 2020"],
+abbr[aria-label*="April 25, 2020"],
+abbr[aria-label*="April 30, 2020"],
+abbr[aria-label*="May 1, 2020"],
+abbr[aria-label*="May 24, 2020"],
+abbr[aria-label*="May 25, 2020"],
+abbr[aria-label*="May 26, 2020"],
+abbr[aria-label*="July 23, 2020"],
+abbr[aria-label*="July 30, 2020"],
+abbr[aria-label*="July 31, 2020"],
+abbr[aria-label*="August 1, 2020"],
+abbr[aria-label*="August 2, 2020"],
+abbr[aria-label*="August 3, 2020"],
+abbr[aria-label*="October 6, 2020"],
+abbr[aria-label*="October 29, 2020"] {
+    color: white;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    background-color: #dc3535d9;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+abbr[aria-label*="January 7, 2020"]:hover{
+
+}
+
+.react-calendar__tile--active {
+    background: rgb(5,70,109);
+    color: white;
+}
+
+.react-calendar {
+    width: 350px;
+    max-width: 100%;
+    background: white;
+    border-style:none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+}

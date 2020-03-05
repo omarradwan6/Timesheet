@@ -1,0 +1,28 @@
+﻿
+
+
+
+@media print {
+
+    #penalty {
+        background-color: crimson !important;
+        color: white !important;
+        font-weight: bold !important;
+    }
+    #hideButton {
+        display: none;
+    }
+
+
+
+    #holliday {
+        background-color: gray !important;
+        color: white !important;
+        font-weight: bold !important;
+    }
+
+    #TableHead > tr > th {
+        background-color: lightgrey !important;
+        font-weight: bold !important;
+    }
+}
